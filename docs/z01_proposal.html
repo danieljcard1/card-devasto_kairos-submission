@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Card &amp; DeVasto - Proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean",
+  "openSidebar": false
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Card &amp; DeVasto</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Webtext</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./z01_proposal.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Proposal</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://danieljcard1.github.io/card-devasto_kairos-submission/" rel="" target=""><i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Proposal</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./article/a01_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./article/a02_background.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Background</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#topic-and-argument" id="toc-topic-and-argument" class="nav-link active" data-scroll-target="#topic-and-argument">Topic and Argument</a></li>
+  <li><a href="#webtext-structure-design" id="toc-webtext-structure-design" class="nav-link" data-scroll-target="#webtext-structure-design">Webtext Structure &amp; Design</a></li>
+  <li><a href="#annotated-bibliography" id="toc-annotated-bibliography" class="nav-link" data-scroll-target="#annotated-bibliography">Annotated Bibliography</a>
+  <ul class="collapse">
+  <li><a href="#blythe-s.-grabill-j.-t.-riley-k.-2008.-action-research-and-wicked-environmental-problems-exploring-appropriate-roles-for-researchers-in-professional-communication.-journal-of-business-and-technical-communication-223-272298.-httpsdoi.org10.11771050651908315973" id="toc-blythe-s.-grabill-j.-t.-riley-k.-2008.-action-research-and-wicked-environmental-problems-exploring-appropriate-roles-for-researchers-in-professional-communication.-journal-of-business-and-technical-communication-223-272298.-httpsdoi.org10.11771050651908315973" class="nav-link" data-scroll-target="#blythe-s.-grabill-j.-t.-riley-k.-2008.-action-research-and-wicked-environmental-problems-exploring-appropriate-roles-for-researchers-in-professional-communication.-journal-of-business-and-technical-communication-223-272298.-httpsdoi.org10.11771050651908315973">Blythe, S., Grabill, J. T., &amp; Riley, K. (2008). Action Research and Wicked Environmental Problems: Exploring Appropriate Roles for Researchers in Professional Communication. Journal of Business and Technical Communication, 22(3), 272–298. https://doi.org/10.1177/1050651908315973</a></li>
+  <li><a href="#butts-s.-jones-m.-2021.-deep-mapping-for-environmental-communication-design.-communication-design-quarterly-91-419.-httpsdoi.org10.11453437000.3437001" id="toc-butts-s.-jones-m.-2021.-deep-mapping-for-environmental-communication-design.-communication-design-quarterly-91-419.-httpsdoi.org10.11453437000.3437001" class="nav-link" data-scroll-target="#butts-s.-jones-m.-2021.-deep-mapping-for-environmental-communication-design.-communication-design-quarterly-91-419.-httpsdoi.org10.11453437000.3437001">Butts, S., &amp; Jones, M. (2021). Deep mapping for environmental communication design. Communication Design Quarterly, 9(1), 4–19. https://doi.org/10.1145/3437000.3437001</a></li>
+  <li><a href="#jones-n.-mcdavid-j.-derthick-k.-dowell-r.-spyridakis-j.-2012.-plain-language-in-environmental-policy-documents-an-assessment-of-reader-comprehension-and-perceptions.-journal-of-technical-writing-and-communication-424-331371.-httpsdoi.org10.2190tw.42.4.b" id="toc-jones-n.-mcdavid-j.-derthick-k.-dowell-r.-spyridakis-j.-2012.-plain-language-in-environmental-policy-documents-an-assessment-of-reader-comprehension-and-perceptions.-journal-of-technical-writing-and-communication-424-331371.-httpsdoi.org10.2190tw.42.4.b" class="nav-link" data-scroll-target="#jones-n.-mcdavid-j.-derthick-k.-dowell-r.-spyridakis-j.-2012.-plain-language-in-environmental-policy-documents-an-assessment-of-reader-comprehension-and-perceptions.-journal-of-technical-writing-and-communication-424-331371.-httpsdoi.org10.2190tw.42.4.b">Jones, N., McDavid, J., Derthick, K., Dowell, R., &amp; Spyridakis, J. (2012). Plain Language in Environmental Policy Documents: An Assessment of Reader Comprehension and Perceptions. Journal of Technical Writing and Communication, 42(4), 331–371. https://doi.org/10.2190/TW.42.4.b</a></li>
+  <li><a href="#simmons-w.-m.-grabill-j.-t.-2007.-toward-a-civic-rhetoric-for-technologically-and-scientifically-complex-places-invention-performance-and-participation.-college-composition-and-communication-583-419448." id="toc-simmons-w.-m.-grabill-j.-t.-2007.-toward-a-civic-rhetoric-for-technologically-and-scientifically-complex-places-invention-performance-and-participation.-college-composition-and-communication-583-419448." class="nav-link" data-scroll-target="#simmons-w.-m.-grabill-j.-t.-2007.-toward-a-civic-rhetoric-for-technologically-and-scientifically-complex-places-invention-performance-and-participation.-college-composition-and-communication-583-419448.">Simmons, W. M., &amp; Grabill, J. T. (2007). Toward a Civic Rhetoric for Technologically and Scientifically Complex Places: Invention, Performance, and Participation. College Composition and Communication, 58(3), 419–448.</a></li>
+  <li><a href="#simmons-w.-m.-2008-participation-and-power.-retrieved-september-11-2023-from-httpssunypress.edubookspparticipation-and-power" id="toc-simmons-w.-m.-2008-participation-and-power.-retrieved-september-11-2023-from-httpssunypress.edubookspparticipation-and-power" class="nav-link" data-scroll-target="#simmons-w.-m.-2008-participation-and-power.-retrieved-september-11-2023-from-httpssunypress.edubookspparticipation-and-power">Simmons, W. M. (2008) Participation and Power. Retrieved September 11, 2023, from https://sunypress.edu/Books/P/Participation-and-Power</a></li>
+  <li><a href="#northmore-l.-hudson-m.-d.-2022.-digital-environmental-impact-assessment-an-exploration-of-emerging-digital-approaches-for-non-technical-reports.-environmental-impact-assessment-review-92-106689.-httpsdoi.org10.1016j.eiar.2021.106689" id="toc-northmore-l.-hudson-m.-d.-2022.-digital-environmental-impact-assessment-an-exploration-of-emerging-digital-approaches-for-non-technical-reports.-environmental-impact-assessment-review-92-106689.-httpsdoi.org10.1016j.eiar.2021.106689" class="nav-link" data-scroll-target="#northmore-l.-hudson-m.-d.-2022.-digital-environmental-impact-assessment-an-exploration-of-emerging-digital-approaches-for-non-technical-reports.-environmental-impact-assessment-review-92-106689.-httpsdoi.org10.1016j.eiar.2021.106689">Northmore, L., &amp; Hudson, M. D. (2022). Digital environmental impact assessment: An exploration of emerging digital approaches for non-technical reports. Environmental Impact Assessment Review, 92, 106689. https://doi.org/10.1016/j.eiar.2021.106689</a></li>
+  <li><a href="#uhlhorn-b.-geißler-g.-jiricka-pürrer-a.-2023.-is-advanced-digitalisation-the-philosophers-stone-or-a-complex-challenge-experiences-from-austrian-and-german-ea-practice-ssrn-scholarly-paper-4494156.-httpsdoi.org10.2139ssrn.4494156" id="toc-uhlhorn-b.-geißler-g.-jiricka-pürrer-a.-2023.-is-advanced-digitalisation-the-philosophers-stone-or-a-complex-challenge-experiences-from-austrian-and-german-ea-practice-ssrn-scholarly-paper-4494156.-httpsdoi.org10.2139ssrn.4494156" class="nav-link" data-scroll-target="#uhlhorn-b.-geißler-g.-jiricka-pürrer-a.-2023.-is-advanced-digitalisation-the-philosophers-stone-or-a-complex-challenge-experiences-from-austrian-and-german-ea-practice-ssrn-scholarly-paper-4494156.-httpsdoi.org10.2139ssrn.4494156">Uhlhorn, B., Geißler, G., &amp; Jiricka-Pürrer, A. (2023). Is Advanced Digitalisation the Philosopher’s Stone or a Complex Challenge – Experiences from Austrian and German Ea Practice (SSRN Scholarly Paper 4494156). https://doi.org/10.2139/ssrn.4494156</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proposal</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Dan Card, University of Minnesota - Twin Cities Danielle DeVasto, Grand Valley State University</p>
+<section id="topic-and-argument" class="level2">
+<h2 class="anchored" data-anchor-id="topic-and-argument">Topic and Argument</h2>
+<p>National Environmental Policy Act (NEPA) Review Processes represent a key site of public engagement with science. Approximately 500 of these processes a year result in the preparation of an Environmental Impact Statement (EIS) that documents the positive and negative environmental impacts of proposed projects, including impacts to endangered species, air and water quality, historic and cultural sites, and social and economic conditions. As such, EISs require the integration of expert analysis from a range of scientific domains including geology, atmospheric science, ecology, hydrology, and toxicology. In addition to serving as a decision-making tool for federal agencies, EISs provide detailed information about project impacts to key stakeholders, including businesses, advocacy groups, and affected citizens.</p>
+<p>While TC scholars have examined public engagement with science in the context of environmental assessment and decision making (Simmons, 2008; Blythe, Grabill, &amp; Riley, 2007; Jones et al, 2012; Card, 2020) recent efforts to “modernize” public participation in regulatory decision making in concert with the emergence of new media have transformed how domain experts, regulators, and invested citizens create and interact with these sites of scientific and technical communication. To be sure, citizens may still find and read a physical copy of project documents before standing in line at a public library or city hall to voice concerns during their allotted three minutes at the microphone, but as we illustrate in this article, scientists and regulators increasingly engage citizens and other stakeholders via virtual reality reading rooms, GIS-driven interactive digital documents, and digital models and simulations.</p>
+<p>In this article, we provide a tour of the ecology of emerging digital tools and artifacts that increasingly mediate public engagement with science in the context of environmental decision making. In so doing, we shed light on how emerging digital technologies are being used to facilitate 1) collaboration among scientists and other technical experts and 2) engagement with citizen stakeholders. As our examination of emerging technologies in this context illustrates, while not all technical communication is science communication, science communication is increasingly also productively viewed as technical communication. We conclude by discussing implications for the relationship between technological literacies, civic action, and sociotechnical deliberation.</p>
+</section>
+<section id="webtext-structure-design" class="level2">
+<h2 class="anchored" data-anchor-id="webtext-structure-design">Webtext Structure &amp; Design</h2>
+<p>Given the nature of our project, we plan to include a number of multimodal elements. While some of the artifacts we analyze could be linked too directly (e.g.&nbsp;interactive, GIS-based reports or a virtual reality reading room), the authors of these artifacts tend to remove them upon project completion. As such, we intend to record and embed videos in which we interact with those artifacts and make use of screenshots to call attention to salient elements.</p>
+<p>We plan to design our webtext in the open source scientific and technical publishing system Quarto. Doing so will allow us to emulate a number of strategies used in the artifacts we analyze (e.g.&nbsp;granular, topical structure; integration of multimodal elements; single-source creation of alternative output formats). In addition, it will allow us to leverage built-in accessible design functionality.</p>
+</section>
+<section id="annotated-bibliography" class="level2">
+<h2 class="anchored" data-anchor-id="annotated-bibliography">Annotated Bibliography</h2>
+<section id="blythe-s.-grabill-j.-t.-riley-k.-2008.-action-research-and-wicked-environmental-problems-exploring-appropriate-roles-for-researchers-in-professional-communication.-journal-of-business-and-technical-communication-223-272298.-httpsdoi.org10.11771050651908315973" class="level3">
+<h3 class="anchored" data-anchor-id="blythe-s.-grabill-j.-t.-riley-k.-2008.-action-research-and-wicked-environmental-problems-exploring-appropriate-roles-for-researchers-in-professional-communication.-journal-of-business-and-technical-communication-223-272298.-httpsdoi.org10.11771050651908315973">Blythe, S., Grabill, J. T., &amp; Riley, K. (2008). Action Research and Wicked Environmental Problems: Exploring Appropriate Roles for Researchers in Professional Communication. Journal of Business and Technical Communication, 22(3), 272–298. https://doi.org/10.1177/1050651908315973</h3>
+</section>
+<section id="butts-s.-jones-m.-2021.-deep-mapping-for-environmental-communication-design.-communication-design-quarterly-91-419.-httpsdoi.org10.11453437000.3437001" class="level3">
+<h3 class="anchored" data-anchor-id="butts-s.-jones-m.-2021.-deep-mapping-for-environmental-communication-design.-communication-design-quarterly-91-419.-httpsdoi.org10.11453437000.3437001">Butts, S., &amp; Jones, M. (2021). Deep mapping for environmental communication design. Communication Design Quarterly, 9(1), 4–19. https://doi.org/10.1145/3437000.3437001</h3>
+<p>Butts and Jones explore how environmental communicators can draw upon the rhetorical elements of place to help people understand complex problems. They share lessons learned from designing EcoTour, a multimedia environmental advocacy project. They are interested in how traditional maps can be augmented with emerging technologies to help create more democratic discourse in environmental communication.</p>
+</section>
+<section id="jones-n.-mcdavid-j.-derthick-k.-dowell-r.-spyridakis-j.-2012.-plain-language-in-environmental-policy-documents-an-assessment-of-reader-comprehension-and-perceptions.-journal-of-technical-writing-and-communication-424-331371.-httpsdoi.org10.2190tw.42.4.b" class="level3">
+<h3 class="anchored" data-anchor-id="jones-n.-mcdavid-j.-derthick-k.-dowell-r.-spyridakis-j.-2012.-plain-language-in-environmental-policy-documents-an-assessment-of-reader-comprehension-and-perceptions.-journal-of-technical-writing-and-communication-424-331371.-httpsdoi.org10.2190tw.42.4.b">Jones, N., McDavid, J., Derthick, K., Dowell, R., &amp; Spyridakis, J. (2012). Plain Language in Environmental Policy Documents: An Assessment of Reader Comprehension and Perceptions. Journal of Technical Writing and Communication, 42(4), 331–371. https://doi.org/10.2190/TW.42.4.b</h3>
+</section>
+<section id="simmons-w.-m.-grabill-j.-t.-2007.-toward-a-civic-rhetoric-for-technologically-and-scientifically-complex-places-invention-performance-and-participation.-college-composition-and-communication-583-419448." class="level3">
+<h3 class="anchored" data-anchor-id="simmons-w.-m.-grabill-j.-t.-2007.-toward-a-civic-rhetoric-for-technologically-and-scientifically-complex-places-invention-performance-and-participation.-college-composition-and-communication-583-419448.">Simmons, W. M., &amp; Grabill, J. T. (2007). Toward a Civic Rhetoric for Technologically and Scientifically Complex Places: Invention, Performance, and Participation. College Composition and Communication, 58(3), 419–448.</h3>
+<p>This study explores…</p>
+</section>
+<section id="simmons-w.-m.-2008-participation-and-power.-retrieved-september-11-2023-from-httpssunypress.edubookspparticipation-and-power" class="level3">
+<h3 class="anchored" data-anchor-id="simmons-w.-m.-2008-participation-and-power.-retrieved-september-11-2023-from-httpssunypress.edubookspparticipation-and-power">Simmons, W. M. (2008) Participation and Power. Retrieved September 11, 2023, from https://sunypress.edu/Books/P/Participation-and-Power</h3>
+<p>This book…</p>
+</section>
+<section id="northmore-l.-hudson-m.-d.-2022.-digital-environmental-impact-assessment-an-exploration-of-emerging-digital-approaches-for-non-technical-reports.-environmental-impact-assessment-review-92-106689.-httpsdoi.org10.1016j.eiar.2021.106689" class="level3">
+<h3 class="anchored" data-anchor-id="northmore-l.-hudson-m.-d.-2022.-digital-environmental-impact-assessment-an-exploration-of-emerging-digital-approaches-for-non-technical-reports.-environmental-impact-assessment-review-92-106689.-httpsdoi.org10.1016j.eiar.2021.106689">Northmore, L., &amp; Hudson, M. D. (2022). Digital environmental impact assessment: An exploration of emerging digital approaches for non-technical reports. Environmental Impact Assessment Review, 92, 106689. https://doi.org/10.1016/j.eiar.2021.106689</h3>
+<p>This study explored the usability of digitalized public-facing documents (specifically ESRI StoryMaps and web solutions) in the Environmental Impact Assessment (EIA) process. The usability test conducted in this study showed disparities between the experience of younger and older digital report users, creating highly variable levels of engagement and satisfaction. This work argues for continuing attention to be paid to this emerging genre (e.g., usability testing, development of best practice guidelines) to make important information more accessible.</p>
+</section>
+<section id="uhlhorn-b.-geißler-g.-jiricka-pürrer-a.-2023.-is-advanced-digitalisation-the-philosophers-stone-or-a-complex-challenge-experiences-from-austrian-and-german-ea-practice-ssrn-scholarly-paper-4494156.-httpsdoi.org10.2139ssrn.4494156" class="level3">
+<h3 class="anchored" data-anchor-id="uhlhorn-b.-geißler-g.-jiricka-pürrer-a.-2023.-is-advanced-digitalisation-the-philosophers-stone-or-a-complex-challenge-experiences-from-austrian-and-german-ea-practice-ssrn-scholarly-paper-4494156.-httpsdoi.org10.2139ssrn.4494156">Uhlhorn, B., Geißler, G., &amp; Jiricka-Pürrer, A. (2023). Is Advanced Digitalisation the Philosopher’s Stone or a Complex Challenge – Experiences from Austrian and German Ea Practice (SSRN Scholarly Paper 4494156). https://doi.org/10.2139/ssrn.4494156</h3>
+<p>This paper highlights the potential of advanced digital technologies for improving environmental assessments (EA) but also underscores the existing gap between the potential benefits and the current level of adoption among practitioners. It emphasizes the need for training and addressing concerns to promote the effective use of digital tools in EA. This work is valuable for its review of the application of digital approaches in EA. By focusing on the perception of practitioners, this work contributes to a better understanding of how these approaches might be useful and beneficial in terms of enhancing the quality and effectiveness of EA.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

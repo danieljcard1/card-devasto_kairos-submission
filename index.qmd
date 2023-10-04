@@ -1,0 +1,18 @@
+---
+title: "Webtext"
+listing: 
+  type: grid
+  sort: "title asc"
+  grid-columns: 2
+  grid-item-border: true
+---
+
+## Title
+
+This is a homepage where we can introduce the webtext. 
+
+## Abstract
+
+In this article, we provide a tour of the ecology of emerging digital tools and artifacts that increasingly mediate public engagement with science in the context of environmental decision making. In so doing, we shed light on how emerging digital technologies are being used to facilitate 1) collaboration among scientists and other technical experts and 2) engagement with citizen stakeholders. 
+
+As our examination of emerging technologies in this context illustrates, while not all technical communication is science communication, science communication is increasingly also productively viewed as technical communication. We conclude by discussing implications for the relationship between technological literacies, civic action, and sociotechnical deliberation.

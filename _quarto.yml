@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4200
+    timeout: 60
+
+website:
+  title: "Card & DeVasto"
+  page-navigation: true
+  reader-mode: true
+  comments: 
+    hypothesis:
+      theme: clean
+      openSidebar: false
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Webtext
+      - z01_proposal.qmd
+    right: 
+      - icon: github
+        href: https://danieljcard1.github.io/card-devasto_kairos-submission/
+        aria-label: Github
+  sidebar:
+    contents: 
+      - article/a01_intro.qmd
+      - article/a02_background.qmd
+
+format:
+  html:
+    theme: 
+      dark: slate
+      light: united
+    css: styles.css
+    toc: true
+
+
+
