@@ -18,15 +18,17 @@ website:
     left:
       - href: index.qmd
         text: Webtext
-      - z01_proposal.qmd
     right: 
+      - z01_proposal.qmd
       - icon: github
         href: https://danieljcard1.github.io/card-devasto_kairos-submission/
         aria-label: Github
+
   sidebar:
     contents: 
       - article/a01_intro.qmd
       - article/a02_background.qmd
+      - article/a03_artifacts.qmd
 
 format:
   html:
@@ -35,6 +37,7 @@ format:
       light: united
     css: styles.css
     toc: true
+    embed-resources: true
 
 
 

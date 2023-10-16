@@ -7,7 +7,7 @@ listing:
   grid-item-border: true
 ---
 
-## Title
+## {{< var article_title >}}
 
 This is a homepage where we can introduce the webtext. 
 

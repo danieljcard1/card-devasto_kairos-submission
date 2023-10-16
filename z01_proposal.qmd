@@ -1,49 +1,172 @@
 ---
 title: "Proposal"
+bibliography: references.bib
 ---
 
+Working title: {{< var article_title >}}
+
 Dan Card, University of Minnesota - Twin Cities
+
 Danielle DeVasto, Grand Valley State University
 
 ## Topic and Argument
 
-National Environmental Policy Act (NEPA) Review Processes represent a key site of public engagement with science. Approximately 500 of these processes a year result in the preparation of an Environmental Impact Statement (EIS) that documents the positive and negative environmental impacts of proposed projects, including impacts to endangered species, air and water quality, historic and cultural sites, and social and economic conditions. As such, EISs require the integration of expert analysis from a range of scientific domains including geology, atmospheric science, ecology, hydrology, and toxicology. In addition to serving as a decision-making tool for federal agencies, EISs provide detailed information about project impacts to key stakeholders, including businesses, advocacy groups, and affected citizens. 
+National Environmental Policy Act (NEPA) Review Processes represent a
+key site of public engagement with science. Approximately 500 of these
+processes a year result in the preparation of an Environmental Impact
+Statement (EIS) that documents the positive and negative environmental
+impacts of proposed projects, including impacts to endangered species,
+air and water quality, historic and cultural sites, and social and
+economic conditions. As such, EISs require the integration of expert
+analysis from a range of scientific domains including geology,
+atmospheric science, ecology, hydrology, and toxicology. In addition to
+serving as a decision-making tool for federal agencies, EISs provide
+detailed information about project impacts to key stakeholders,
+including businesses, advocacy groups, and affected citizens.
 
-While TC scholars have examined public engagement with science in the context of environmental assessment and decision making (Simmons, 2008; Blythe, Grabill, & Riley, 2007; Jones et al, 2012; Card, 2020) recent efforts to “modernize” public participation in regulatory decision making in concert with the emergence of new media have transformed how domain experts, regulators, and invested citizens create and interact with these sites of scientific and technical communication. To be sure, citizens may still find and read a physical copy of project documents before standing in line at a public library or city hall to voice concerns during their allotted three minutes at the microphone, but as we illustrate in this article, scientists and regulators increasingly engage citizens and other stakeholders via virtual reality reading rooms, GIS-driven interactive digital documents, and digital models and simulations.
+While TC scholars have examined public engagement with science in the
+context of environmental assessment and decision making
+([@simmonsmichelle; @simmons2007; @jones2012; @blythe2008], recent
+efforts to "modernize" public participation in regulatory decision
+making in concert with the emergence of new media have transformed how
+domain experts, regulators, and invested citizens create and interact
+with these sites of scientific and technical communication
+[@cardOffTargetImpactsTracing2020]. To be sure, citizens may still find
+and read a physical copy of project documents before standing in line at
+a public library or city hall to voice concerns during their allotted
+three minutes at the microphone, but as we illustrate in this article,
+scientists and regulators increasingly engage citizens and other
+stakeholders via virtual reality reading rooms, GIS-driven interactive
+digital documents, and digital models and simulations.
 
-In this article, we provide a tour of the ecology of emerging digital tools and artifacts that increasingly mediate public engagement with science in the context of environmental decision making. In so doing, we shed light on how emerging digital technologies are being used to facilitate 1) collaboration among scientists and other technical experts and 2) engagement with citizen stakeholders. As our examination of emerging technologies in this context illustrates, while not all technical communication is science communication, science communication is increasingly also productively viewed as technical communication. We conclude by discussing implications for the relationship between technological literacies, civic action, and sociotechnical deliberation.  
+In this article, we provide a tour of the ecology of emerging digital
+tools and artifacts that increasingly mediate public engagement with
+science in the context of environmental decision making. In so doing, we
+shed light on how emerging digital technologies are being used to
+facilitate 1) collaboration among scientists and other technical experts
+and 2) engagement with citizen stakeholders. As our examination of
+emerging technologies in this context illustrates, while not all
+technical communication is science communication, science communication
+is increasingly also productively viewed as technical communication. We
+conclude by discussing implications for the relationship between
+technological literacies, civic action, and sociotechnical deliberation.
 
 ## Webtext Structure & Design
 
-Given the nature of our project, we plan to include a number of multimodal elements. While some of the artifacts we analyze could be linked too directly (e.g. interactive, GIS-based reports or a virtual reality reading room), the authors of these artifacts tend to remove them upon project completion. As such, we intend to record and embed videos in which we interact with those artifacts and make use of screenshots to call attention to salient elements.
+Given the nature of our project, we plan to include a number of
+multimodal elements. While some of the artifacts we analyze could be
+linked to directly (e.g. interactive, GIS-based reports or a virtual
+reality reading room), the authors of these artifacts tend to remove
+them upon project completion. As such, we intend to record and embed
+videos in which we interact with those artifacts and make use of
+screenshots to call attention to salient elements.
 
-We plan to design our webtext in the open source scientific and technical publishing system Quarto. Doing so will allow us to emulate a number of strategies used in the artifacts we analyze (e.g. granular, topical structure; integration of multimodal elements; single-source creation of alternative output formats). In addition, it will allow us to leverage built-in accessible design functionality. 
+We plan to design our webtext in the open source scientific and
+technical publishing system Quarto. Doing so will allow us to emulate a
+number of strategies used in the artifacts we analyze (e.g. granular,
+topical structure; integration of multimodal elements; single-source
+creation of alternative output formats). In addition, it will allow us
+to leverage built-in accessible design functionality.
+
+From a publishing perspective, our use of Quarto will allow us to
+generate static HTML that Kairos can easily host.
 
 ## Annotated Bibliography
 
-### Blythe, S., Grabill, J. T., & Riley, K. (2008). Action Research and Wicked Environmental Problems: Exploring Appropriate Roles for Researchers in Professional Communication. Journal of Business and Technical Communication, 22(3), 272–298. https://doi.org/10.1177/1050651908315973 
+**Blythe, S., Grabill, J. T., & Riley, K. (2008). Action Research and
+Wicked Environmental Problems: Exploring Appropriate Roles for
+Researchers in Professional Communication. Journal of Business and
+Technical Communication, 22(3), 272--298.
+https://doi.org/10.1177/1050651908315973**
 
-### Butts, S., & Jones, M. (2021). Deep mapping for environmental communication design. Communication Design Quarterly, 9(1), 4–19. https://doi.org/10.1145/3437000.3437001 
+This article reports on a 3-year action research project to facilitate
+public involvement in a planned canal dredging and storage project. The
+study examines the ways that community members work to understand the
+problem and the data. The authors argue that the primary goal of action
+research should be to identify and support the strategies used by
+community members rather than educating the public.
 
-Butts and Jones explore how environmental communicators can draw upon the rhetorical elements of place to help people understand complex problems. They share lessons learned from designing EcoTour, a multimedia environmental advocacy project. They are interested in how traditional maps can be augmented with emerging technologies to help create more democratic discourse in environmental communication. 
+**Butts, S., & Jones, M. (2021). Deep mapping for environmental
+communication design. Communication Design Quarterly, 9(1), 4--19.
+https://doi.org/10.1145/3437000.3437001**
 
-### Jones, N., McDavid, J., Derthick, K., Dowell, R., & Spyridakis, J. (2012). Plain Language in Environmental Policy Documents: An Assessment of Reader Comprehension and Perceptions. Journal of Technical Writing and Communication, 42(4), 331–371. https://doi.org/10.2190/TW.42.4.b 
+Butts and Jones explore how environmental communicators can draw upon
+the rhetorical elements of place to help people understand complex
+problems. They share lessons learned from designing EcoTour, a
+multimedia environmental advocacy project. They are interested in how
+traditional maps can be augmented with emerging technologies to help
+create more democratic discourse in environmental communication.
 
-### Simmons, W. M., & Grabill, J. T. (2007). Toward a Civic Rhetoric for Technologically and Scientifically Complex Places: Invention, Performance, and Participation. College Composition and Communication, 58(3), 419–448.
+**Jones, N., McDavid, J., Derthick, K., Dowell, R., & Spyridakis, J.
+(2012). Plain Language in Environmental Policy Documents: An Assessment
+of Reader Comprehension and Perceptions. Journal of Technical Writing
+and Communication, 42(4), 331--371. https://doi.org/10.2190/TW.42.4.b**
 
-This study explores... 
+This study\'s mixed-methods research investigates whether the
+application of specific Plain Language (PL) guidelines influences how
+readers comprehend and perceive environmental policy documents. The
+findings indicate that pronoun usage in environmental impact statement
+(EIS) summaries affects comprehension, varying with readers' education
+levels. Question-style headings influence familiarity and trust, while
+overall design shapes reader perceptions and attitudes towards
+organizations responsible for the documents. The research provides
+partial support for PL guidelines related to the use of pronouns and
+question headings, suggesting the need for further validation in terms
+of comprehension.
 
-### Simmons, W. M. (2008) Participation and Power. Retrieved September 11, 2023, from https://sunypress.edu/Books/P/Participation-and-Power 
+**Simmons, W. M., & Grabill, J. T. (2007). Toward a Civic Rhetoric for
+Technologically and Scientifically Complex Places: Invention,
+Performance, and Participation. College Composition and Communication,
+58(3), 419--448.**
 
-This book...
+This article discusses the importance of citizens' ability to
+communicate effectively to influence and change their communities. The
+text argues that citizens need both technical expertise and an
+understanding of complex issues to participate in public discourse
+effectively. It also emphasizes the importance of access to reliable
+information and the development of communicative competencies for
+democratic citizenship. In particular, the authors call for more focus
+on the ways in which citizens use complex interfaces to access and make
+sense of information.
 
-### Northmore, L., & Hudson, M. D. (2022). Digital environmental impact assessment: An exploration of emerging digital approaches for non-technical reports. Environmental Impact Assessment Review, 92, 106689. https://doi.org/10.1016/j.eiar.2021.106689 
+**Simmons, W. M. (2008) Participation and Power. Retrieved September 11,
+2023, from https://sunypress.edu/Books/P/Participation-and-Power**
 
-This study explored the usability of digitalized public-facing documents (specifically ESRI StoryMaps and web solutions) in the Environmental Impact Assessment (EIA) process. The usability test conducted in this study showed disparities between the experience of younger and older digital report users, creating highly variable levels of engagement and satisfaction. This work argues for continuing attention to be paid to this emerging genre (e.g., usability testing, development of best practice guidelines) to make important  information more accessible. 
+This book examines the ways in which citizens are allowed to participate
+in environmental policy decision making. Despite requirements that
+mandate public participation, institutional practices and current models
+of public participation often exclude citizens from anything other than
+a superficial role. Through her study of risk communication and public
+participation practices regarding the disposal of VX nerve agent, the
+author constructs a theory of democratic and ethical public involvement
+that grants citizens more power in the decision-making process.
 
-### Uhlhorn, B., Geißler, G., & Jiricka-Pürrer, A. (2023). Is Advanced Digitalisation the Philosopher’s Stone or a Complex Challenge – Experiences from Austrian and German Ea Practice (SSRN Scholarly Paper 4494156). https://doi.org/10.2139/ssrn.4494156 
+**Northmore, L., & Hudson, M. D. (2022). Digital environmental impact
+assessment: An exploration of emerging digital approaches for
+non-technical reports. Environmental Impact Assessment Review, 92,
+106689. https://doi.org/10.1016/j.eiar.2021.106689**
 
-This paper highlights the potential of advanced digital technologies for improving environmental assessments (EA) but also underscores the existing gap between the potential benefits and the current level of adoption among practitioners. It emphasizes the need for training and addressing concerns to promote the effective use of digital tools in EA. This work is valuable for its review of the application of digital approaches in EA. By focusing on the perception of practitioners, this work contributes to a better understanding of how these approaches might be useful and beneficial in terms of enhancing the quality and effectiveness of EA.
+This study explored the usability of digitalized public-facing documents
+(specifically ESRI StoryMaps and web solutions) in the Environmental
+Impact Assessment (EIA) process. The usability test conducted in this
+study showed disparities between the experience of younger and older
+digital report users, creating highly variable levels of engagement and
+satisfaction. This work argues for continuing attention to be paid to
+this emerging genre (e.g., usability testing, development of best
+practice guidelines) to make important information more accessible.
 
+**Uhlhorn, B., Geißler, G., & Jiricka-Pürrer, A. (2023). Is Advanced
+Digitalisation the Philosopher's Stone or a Complex Challenge --
+Experiences from Austrian and German Ea Practice (SSRN Scholarly Paper
+4494156). https://doi.org/10.2139/ssrn.4494156**
 
-
+This paper highlights the potential of advanced digital technologies for
+improving environmental assessments (EA) but also underscores the
+existing gap between the potential benefits and the current level of
+adoption among practitioners. It emphasizes the need for training and
+addressing concerns to promote the effective use of digital tools in EA.
+This work is valuable for its review of the application of digital
+approaches in EA. By focusing on the perception of practitioners, this
+work contributes to a better understanding of how these approaches might
+be useful and beneficial in terms of enhancing the quality and
+effectiveness of EA.

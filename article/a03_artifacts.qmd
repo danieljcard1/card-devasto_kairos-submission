@@ -1,0 +1,23 @@
+---
+title: "Artifacts"
+---
+
+Just to provide a sense of the artifacts we're analyzing...
+
+## Virtual reality reading room
+
+![A virtual reality reading room used to share project information with
+public stakeholders during an environmental review
+process.](assets/virtual%20reading%20room.jpg)
+
+![](assets/virtual-reading-room.mp4)
+
+## Digital EIS
+
+![A digital environmental impact statement used to report the
+preliminary results of an environmental review process and gather public
+comment on the draft EIS.](assets/digitalEIS.png)
+
+![](assets/digital-EIS.mp4)
+
+
