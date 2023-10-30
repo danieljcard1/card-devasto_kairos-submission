@@ -6,17 +6,25 @@ Just to provide a sense of the artifacts we're analyzing...
 
 ## Virtual reality reading room
 
+Made to look like a poster session, the VR reading room allows stakeholders to read about the project. What's gained? What's lost? 
+
 ![A virtual reality reading room used to share project information with
 public stakeholders during an environmental review
 process.](assets/virtual%20reading%20room.jpg)
+
+A brief tour of the virtual reading room. 
 
 ![](assets/virtual-reading-room.mp4)
 
 ## Digital EIS
 
+A GIS-driven environmental impact statement. 
+
 ![A digital environmental impact statement used to report the
 preliminary results of an environmental review process and gather public
 comment on the draft EIS.](assets/digitalEIS.png)
+
+A brief tour to showcase the interactive nature of the digital EIS. 
 
 ![](assets/digital-EIS.mp4)
 

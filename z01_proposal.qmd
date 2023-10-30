@@ -1,13 +1,18 @@
 ---
 title: "Proposal"
 bibliography: references.bib
+format: 
+  html: default
+  pdf: 
+    documentclass: scrartcl
 ---
 
-Working title: {{< var article_title >}}
+Working title: **{{< var article_title >}}**
 
-Dan Card, University of Minnesota - Twin Cities
+Authors:
 
-Danielle DeVasto, Grand Valley State University
+-   *Dan Card, University of Minnesota - Twin Cities*
+-   *Danielle DeVasto, Grand Valley State University*
 
 ## Topic and Argument
 
@@ -26,7 +31,7 @@ including businesses, advocacy groups, and affected citizens.
 
 While TC scholars have examined public engagement with science in the
 context of environmental assessment and decision making
-([@simmonsmichelle; @simmons2007; @jones2012; @blythe2008], recent
+[@simmonsmichelle; @simmons2007; @jones2012; @blythe2008], recent
 efforts to "modernize" public participation in regulatory decision
 making in concert with the emergence of new media have transformed how
 domain experts, regulators, and invested citizens create and interact
@@ -44,12 +49,14 @@ tools and artifacts that increasingly mediate public engagement with
 science in the context of environmental decision making. In so doing, we
 shed light on how emerging digital technologies are being used to
 facilitate 1) collaboration among scientists and other technical experts
-and 2) engagement with citizen stakeholders. As our examination of
-emerging technologies in this context illustrates, while not all
-technical communication is science communication, science communication
-is increasingly also productively viewed as technical communication. We
-conclude by discussing implications for the relationship between
-technological literacies, civic action, and sociotechnical deliberation.
+and 2) engagement with citizen stakeholders.
+
+As our examination of emerging technologies in this context illustrates,
+while not all technical communication is science communication, science
+communication is increasingly also productively viewed as technical
+communication. We conclude by discussing implications for the
+relationship between technological literacies, civic action, and
+sociotechnical deliberation.
 
 ## Webtext Structure & Design
 
@@ -102,17 +109,16 @@ create more democratic discourse in environmental communication.
 of Reader Comprehension and Perceptions. Journal of Technical Writing
 and Communication, 42(4), 331--371. https://doi.org/10.2190/TW.42.4.b**
 
-This study\'s mixed-methods research investigates whether the
-application of specific Plain Language (PL) guidelines influences how
-readers comprehend and perceive environmental policy documents. The
-findings indicate that pronoun usage in environmental impact statement
-(EIS) summaries affects comprehension, varying with readers' education
-levels. Question-style headings influence familiarity and trust, while
-overall design shapes reader perceptions and attitudes towards
-organizations responsible for the documents. The research provides
-partial support for PL guidelines related to the use of pronouns and
-question headings, suggesting the need for further validation in terms
-of comprehension.
+This study's mixed-methods research investigates whether the application
+of specific Plain Language (PL) guidelines influences how readers
+comprehend and perceive environmental policy documents. The findings
+indicate that pronoun usage in environmental impact statement (EIS)
+summaries affects comprehension, varying with readers' education levels.
+Question-style headings influence familiarity and trust, while overall
+design shapes reader perceptions and attitudes towards organizations
+responsible for the documents. The research provides partial support for
+PL guidelines related to the use of pronouns and question headings,
+suggesting the need for further validation in terms of comprehension.
 
 **Simmons, W. M., & Grabill, J. T. (2007). Toward a Civic Rhetoric for
 Technologically and Scientifically Complex Places: Invention,
@@ -170,3 +176,5 @@ approaches in EA. By focusing on the perception of practitioners, this
 work contributes to a better understanding of how these approaches might
 be useful and beneficial in terms of enhancing the quality and
 effectiveness of EA.
+
+## References
